@@ -21,7 +21,7 @@ while True:
     except RuntimeError: # Il arrive que les données du capteur arrivent dans le Raspberry en étant corrompues, on ignore donc cette erreur.
         time.sleep(2.0) # Pause de 2 secondes.
         continue # On continue la boucle.
-    except Exception as error: # Cette erreur est considérée comme grave, elle n'est pas censée arriver mais on sait jamais.
+    except Exception as error: # Cette erreur est considérée comme grave, elle n'est pas censée arriver mais on ne sait jamais.
         dht_device.exit() # Ferme proprement la liaison entre le capteur et le programme.
         raise error # Laisse l'erreur interrompre le programme.
     time.sleep(2.0) # Pause de 2 secondes.
