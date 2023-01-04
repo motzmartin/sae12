@@ -1,4 +1,4 @@
-# SAE12 - Partie capteur.
+# Partie capteur.
 
 Tout d'abord, ne devons installer des prérequis pour le bon fonctionnement de notre programme.
 <br>Les commandes à entrer sont les suivantes :
