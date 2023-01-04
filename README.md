@@ -25,4 +25,6 @@ while True:
         dht_device.exit() # Ferme proprement la liaison entre le capteur et le programme
         raise error # Laisse l'erreur interrompre le programme
     time.sleep(2.0) # Pause de 2 secondes
+
+# Code pensé et rédigé par Martin MOTZ.
 ```
