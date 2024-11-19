@@ -1,4 +1,4 @@
-# Partie capteur.
+# Partie capteur
 
 Tout d'abord, nous devons installer des prérequis pour le bon fonctionnement de notre programme.<br>
 Les commandes à entrer sont les suivantes :
