@@ -1,14 +1,19 @@
 # Partie capteur
 
-Tout d'abord, nous devons installer des prérequis pour le bon fonctionnement de notre programme.<br>
+Tout d'abord, nous devons installer des prérequis pour le bon fonctionnement de notre programme.
+
 Les commandes à entrer sont les suivantes :
+
 ```bash
 sudo apt update && sudo apt upgrade
 sudo apt install python3-pip libgpiod2
 pip install adafruit-circuitpython-dht
 ```
-Ensuite, nous allons créer un fichier .py afin de lire les données du capteur.<br>
+
+Ensuite, nous allons créer un fichier .py afin de lire les données du capteur.
+
 Voici le code détaillé :
+
 ```python
 import time, board, adafruit_dht
 
